@@ -24,8 +24,10 @@ function Header() {
         </div>
       </div>
       <div className='flex items-center justify-center gap-4'>
-        <NavbarItems title="Trending" address='/'/>
-        <NavbarItems title="Top Rated" address='/'/>
+        <NavbarItems title="Now Playing" address='/now_playing'/>
+        <NavbarItems title="Popular" address='/popular'/>
+        <NavbarItems title="Top Rated" address='/top_rated'/>
+        <NavbarItems title="Upcoming" address='/upcoming'/>
       </div>
     </div>
   )
